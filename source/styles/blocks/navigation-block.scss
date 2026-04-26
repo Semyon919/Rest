@@ -1,0 +1,80 @@
+.navigation-block {
+  padding: 0 45px;
+  min-height: 232px;
+  margin: 0 0 28px 0;
+}
+
+.navigation-block__title {
+  margin: 0 0 32px 0;
+  font-weight: 500;
+  font-size: 36px;
+  width: 169px;
+}
+
+.navigation-block__search-block {
+  width: 195px;
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 46px 0;
+}
+
+.navigation-block__search-input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  width: 152px;
+  height: 30px;
+}
+
+.navigation-block__search-input::placeholder {
+  font-family: "Noto Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #bdbdbd;
+}
+
+.navigation-block__loupe-icon {
+  margin: 6px 19px 6px 6px;
+}
+
+.navigation-block__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.navigation-block__item {
+  width: 45px;
+  min-height: 75px;
+}
+
+.navigation-block__link {
+  text-decoration: none;
+  color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.navigation-block__item-title {
+  width: 100%;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  margin: 0 0 0 -1px;
+}
+
+.navigation-block__item-text {
+  width: 100%;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}

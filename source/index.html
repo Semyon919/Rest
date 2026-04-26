@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rest</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preload" href="#" type="font/woff2" as="font" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/index.js" defer></script>
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Light.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Regular.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Medium.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Bold.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="page__body">
+    <div class="page-container">
+      <header class="header">
+        <h1 class="visually-hidden">Приложение для доставки еды</h1>
+        <ul class="header__list">
+          <li class="header__list-item">
+            <button type="button" class="header__item-button">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 14"
+                fill="none"
+                role="img"
+                aria-label="Иконка меню."
+                class="header__menu-icon"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="icons/stack.svg#menu-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="header__list-item--block">
+            <button type="button" class="header__item-button--chlb button">
+              Челябинск
+              <svg
+                width="14"
+                height="8"
+                viewBox="0 0 14 8"
+                fill="none"
+                role="img"
+                aria-label="Стрелка вниз."
+                class="header__down-icon"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="icons/stack.svg#down-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="header__list-item">
+            <button type="button" class="header__item-button">
+              <svg
+                width="24"
+                height="21"
+                viewBox="0 0 24 21"
+                fill="none"
+                role="img"
+                aria-label="Иконка корзины."
+                class="header__cart-icon"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="icons/stack.svg#cart-icon"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </header>
+      <main class="main">
+        <section class="navigation-block">
+          <h2 class="navigation-block__title">Голоден?</h2>
+          <div class="navigation-block__search-block">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              role="img"
+              aria-label="Иконка лупы."
+              class="navigation-block__loupe-icon"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="icons/stack.svg#loupe-icon"></use>
+            </svg>
+            <input
+              type="search"
+              class="navigation-block__search-input"
+              id="search-input"
+              placeholder="Поиск по меню"
+            />
+          </div>
+          <ul class="navigation-block__list">
+            <li class="navigation-block__item">
+              <a href="#" class="navigation-block__link">
+                <svg
+                  width="36"
+                  height="35"
+                  viewBox="0 0 36 35"
+                  fill="none"
+                  role="img"
+                  aria-label="Иконка сервсиного купола."
+                  class="navigation-block__cloche-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="icons/stack.svg#cloche-icon"></use>
+                </svg>
+                <h3 class="navigation-block__item-title">Все</h3>
+              </a>
+            </li>
+            <li class="navigation-block__item">
+              <a href="#" class="navigation-block__link">
+                <svg
+                  width="30"
+                  height="35"
+                  viewBox="0 0 30 35"
+                  fill="none"
+                  role="img"
+                  aria-label="Иконка пиццы."
+                  class="navigation-block__pizza-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="icons/stack.svg#pizza-icon"></use>
+                </svg>
+                <p class="navigation-block__item-text">Пицца</p>
+              </a>
+            </li>
+            <li class="navigation-block__item">
+              <a href="#" class="navigation-block__link">
+                <svg
+                  width="33"
+                  height="33"
+                  viewBox="0 0 33 33"
+                  fill="none"
+                  role="img"
+                  aria-label="Иконка кебаба."
+                  class="navigation-block__kebab-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="icons/stack.svg#kebab-icon"></use>
+                </svg>
+                <p class="navigation-block__item-text">Кебаб</p>
+              </a>
+            </li>
+            <li class="navigation-block__item">
+              <a href="#" class="navigation-block__link">
+                <svg
+                  width="35"
+                  height="35"
+                  viewBox="0 0 35 35"
+                  fill="none"
+                  role="img"
+                  aria-label="Иконка бургера."
+                  class="navigation-block__burger-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="icons/stack.svg#burger-icon"></use>
+                </svg>
+                <p class="navigation-block__item-text">Бургер</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
