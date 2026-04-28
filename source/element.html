@@ -1,0 +1,288 @@
+<!doctype html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rest</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preload" href="#" type="font/woff2" as="font" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/index.js" defer></script>
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Light.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Regular.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Medium.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Bold.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="page__body">
+    <div class="page-container">
+      <header class="header-element">
+        <h1 class="visually-hidden">Приложение для доставки еды</h1>
+        <div class="header-element__block">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                images/pit-big-image@1x.webp 1x,
+                images/pit-big-image@2x.webp 2x
+              "
+            />
+            <img
+              src="images/pit-big-image@1x.jpg"
+              srcset="images/pit-big-image@2x.jpg 2x"
+              class="header-element__picture"
+              width="375"
+              height="286"
+              alt="Изображение Сытый Питт."
+            />
+          </picture>
+          <a
+            href="index.html"
+            class="header-element__link header-element__link--left"
+          >
+            <svg
+              width="14"
+              height="24"
+              viewBox="0 0 14 24"
+              fill="none"
+              role="img"
+              aria-label="Иконка стрелки."
+              class="header-element__arrow-icon"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="icons/stack.svg#arrow-left-icon"></use>
+            </svg>
+          </a>
+          <a href="#" class="header-element__link header-element__link--right">
+            <svg
+              width="24"
+              height="21"
+              viewBox="0 0 24 21"
+              fill="none"
+              role="img"
+              aria-label="Иконка корзины."
+              class="header-element__cart-icon"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="icons/stack.svg#cart-icon"></use>
+            </svg>
+          </a>
+        </div>
+      </header>
+      <main class="main">
+        <section class="info-block">
+          <div class="info-block__block">
+            <div class="info-block__left">
+              <h3 class="info-block__title">Сытый Питт</h3>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                role="img"
+                aria-label="Иконка звезды."
+                class="info-block__star-icon"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="icons/stack.svg#star-icon"></use>
+              </svg>
+              <span class="info-block__rating">4,5</span>
+              <span class="info-block__reviews">(100+)</span>
+              <span class="info-block__time"><b>25-30</b> мин</span>
+            </div>
+            <div class="info-block__right">
+              <span class="info-block__ruble">₽</span>
+              <span class="info-block__price">300</span>
+            </div>
+          </div>
+          <p class="info-block__text">
+            Et consectetur commodo ut consectetur ex nulla voluptate commodo
+            ipsum incididunt qui dolor.
+          </p>
+          <a href="#" class="info-block__link">Купить</a>
+          <svg
+            width="30"
+            height="36"
+            viewBox="0 0 30 36"
+            fill="none"
+            role="img"
+            aria-label="Иконка сердца."
+            class="info-block__heart-icon"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use href="icons/stack.svg#heart-icon"></use>
+          </svg>
+        </section>
+        <section class="list-block">
+          <ul class="list-block__tabs-list">
+            <li class="list-block__tabs-item list-block__tabs-item--big">
+              <a
+                href="#"
+                class="list-block__tabs-item-link list-block__tabs-item-link--big-link"
+                >Дополнительно</a
+              >
+            </li>
+            <li class="list-block__tabs-item">
+              <a
+                href="#"
+                class="list-block__tabs-item-link list-block__tabs-item-link--grey"
+                >Похожие</a
+              >
+            </li>
+            <li class="list-block__tabs-item">
+              <a
+                href="#"
+                class="list-block__tabs-item-link list-block__tabs-item-link--grey"
+                >Отзывы</a
+              >
+            </li>
+          </ul>
+          <ul class="list-block__addons-list">
+            <li class="list-block__addons-item">
+              <div class="list-block__addons-block">
+                <div class="list-block__picture-block">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/coffee-image@1x.webp 1x,
+                        images/coffee-image@2x.webp 2x
+                      "
+                    />
+                    <img
+                      src="images/coffee-image@1x.png"
+                      srcset="images/coffee-image@2x.jpg 2x"
+                      class="list-block__picture"
+                      width="61"
+                      height="61"
+                      alt="Изображение чашки кофе."
+                    />
+                  </picture>
+                </div>
+                <div class="list-block__text-block">
+                  <div class="list-block__line-block">
+                    <span class="list-block__line-text">Просто кофе</span>
+                    <span class="list-block__line-text">200 руб</span>
+                  </div>
+                  <p class="list-block__text">Вкусный зерновой кофеёчек</p>
+                </div>
+              </div>
+            </li>
+            <li class="list-block__addons-item">
+              <div class="list-block__addons-block">
+                <div class="list-block__picture-block">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/coffee-image@1x.webp 1x,
+                        images/coffee-image@2x.webp 2x
+                      "
+                    />
+                    <img
+                      src="images/coffee-image@1x.png"
+                      srcset="images/coffee-image@2x.jpg 2x"
+                      class="list-block__picture"
+                      width="61"
+                      height="61"
+                      alt="Изображение чашки кофе."
+                    />
+                  </picture>
+                </div>
+                <div class="list-block__text-block">
+                  <div class="list-block__line-block">
+                    <span class="list-block__line-text">Просто кофе</span>
+                    <span class="list-block__line-text">200 руб</span>
+                  </div>
+                  <p class="list-block__text">Вкусный зерновой кофеёчек</p>
+                </div>
+              </div>
+            </li>
+            <li class="list-block__addons-item">
+              <div class="list-block__addons-block">
+                <div class="list-block__picture-block">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/coffee-image@1x.webp 1x,
+                        images/coffee-image@2x.webp 2x
+                      "
+                    />
+                    <img
+                      src="images/coffee-image@1x.png"
+                      srcset="images/coffee-image@2x.jpg 2x"
+                      class="list-block__picture"
+                      width="61"
+                      height="61"
+                      alt="Изображение чашки кофе."
+                    />
+                  </picture>
+                </div>
+                <div class="list-block__text-block">
+                  <div class="list-block__line-block">
+                    <span class="list-block__line-text">Просто кофе</span>
+                    <span class="list-block__line-text">200 руб</span>
+                  </div>
+                  <p class="list-block__text">Вкусный зерновой кофеёчек</p>
+                </div>
+              </div>
+            </li>
+            <li class="list-block__addons-item">
+              <div class="list-block__addons-block">
+                <div class="list-block__picture-block">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        images/coffee-image@1x.webp 1x,
+                        images/coffee-image@2x.webp 2x
+                      "
+                    />
+                    <img
+                      src="images/coffee-image@1x.png"
+                      srcset="images/coffee-image@2x.jpg 2x"
+                      class="list-block__picture"
+                      width="61"
+                      height="61"
+                      alt="Изображение чашки кофе."
+                    />
+                  </picture>
+                </div>
+                <div class="list-block__text-block">
+                  <div class="list-block__line-block">
+                    <span class="list-block__line-text">Просто кофе</span>
+                    <span class="list-block__line-text">200 руб</span>
+                  </div>
+                  <p class="list-block__text">Вкусный зерновой кофеёчек</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

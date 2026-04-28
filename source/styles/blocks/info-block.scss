@@ -1,0 +1,90 @@
+.info-block {
+  position: relative;
+  margin: 0 0 36px 0;
+}
+
+.info-block__block {
+  padding: 0 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 11px 0;
+}
+
+.info-block__left {
+  width: 173px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-block__title {
+  width: 100%;
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.info-block__star-icon {
+  margin: 2px 7px 0 0;
+}
+
+.info-block__rating {
+  display: block;
+  width: 20px;
+  font-weight: 700;
+  margin: 0 11px 0 0;
+}
+
+.info-block__reviews {
+  display: block;
+  width: 39px;
+  font-weight: 300;
+  color: #828282;
+  margin: 0 17px 0 0;
+}
+
+.info-block__time b {
+  font-weight: 700;
+}
+
+.info-block__right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-block__ruble {
+  display: block;
+  padding: 30px 2px 0 0;
+}
+
+.info-block__price {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 9px 0 0 0;
+}
+
+.info-block__text {
+  margin: 0 0 15px 0;
+  padding: 0 45px;
+}
+
+.info-block__link {
+  display: block;
+  width: 285px;
+  min-height: 45px;
+  margin: 0 45px;
+  border-radius: 20px;
+  background-color: #f2c94c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333333;
+  font-weight: 700;
+}
+
+.info-block__heart-icon {
+  position: absolute;
+  top: -41px;
+  right: 45px;
+}
